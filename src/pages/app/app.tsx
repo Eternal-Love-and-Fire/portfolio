@@ -6,15 +6,15 @@ import { Root } from "../root/root";
 
 const router = createBrowserRouter([
   {
-    path: "/portfolio/",
+    path: "/portfolio",
     element: <Root />,
     children: [
       {
-        path: "/portfolio/",
+        path: "",
         element: <Home />,
       },
       {
-        path: "/projects",
+        path: "projects",
         element: <Projects />,
       },
     ],
