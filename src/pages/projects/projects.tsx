@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ProjectCard } from "./components/project-card";
 import { ProjectType } from "./project.type";
+import { Link } from "react-router-dom";
 
 const projects: ProjectType[] = [
   {
@@ -32,12 +33,12 @@ const Projects = () => {
       className="p-4"
       layout
     >
-      <a
-        href="/"
+      <Link
+        to="/"
         className="m-4 px-4 py-2 border dark:border-white border-black rounded-md hover:bg-teal-400 duration-300"
       >
         Back to Home
-      </a>
+      </Link>
       <ul className="p-4 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
         {projects.map((project) => {
           return (

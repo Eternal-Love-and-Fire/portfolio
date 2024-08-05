@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 type MainProps = {
   layoutStyle: string;
@@ -33,7 +34,7 @@ const Main = (props: MainProps) => {
       >
         Javascript, Typescript, React, NodeJS, Laravel
       </motion.p>
-      <a href="/portfolio/projects" className='mt-4 py-2 px-4 border-2 border-black dark:border-white rounded-xl hover:bg-teal-400 duration-300 tracking-widest'>Check my projects</a>
+      <Link to="/portfolio/projects" className='mt-4 py-2 px-4 border-2 border-black dark:border-white rounded-xl hover:bg-teal-400 duration-300 tracking-widest'>Check my projects</Link>
     </div>
   );
 };
