@@ -34,7 +34,7 @@ const Projects = () => {
       layout
     >
       <Link
-        to="/"
+        to="/portfolio/"
         className="m-4 px-4 py-2 border dark:border-white border-black rounded-md hover:bg-teal-400 duration-300"
       >
         Back to Home
