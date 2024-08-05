@@ -37,7 +37,7 @@ const Projects = () => {
         to="/portfolio/"
         className="m-4 px-4 py-2 border dark:border-white border-black rounded-md hover:bg-teal-400 duration-300"
       >
-        Back to Home fuck
+        Back to Home
       </Link>
       <ul className="p-4 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
         {projects.map((project) => {
